@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color-interpolation-filters: var(--textColor);
+}
+
+p {
+    color: var(--normalText);
+}
+
+.section_padding {
+    padding: 30px 0px;
+}
+
+:root {
+    --primaryColor: #4BC989;
+
+    --mainColor: #0F9BFF;
+
+    --textColor: #343233;
+
+    --cardBg: #CFEBFF;
+
+    --normalText: #707070;
+
+    --globalColor: #FFFFFF;
+
+    --sectionBg: linear-gradient(rgba(15, 155, 255, 0.1) 0%, rgba(75, 201, 137, 0.05) 100%);
+
+    --heroBanner: rgb(15 155 255 / 10%);
+
+    --transition: 0.3s all linear;
+}
+
+.primary {
+    background: var(--primaryColor);
+}
+
+.main {
+    background: var(--mainColor);
+}
+
+.secondary {
+    background: #9E8AE9;
+}
+
+.light {
+    background: #EBAB4A;
+}
+
+.primaryColor {
+    color: var(--primaryColor);
+}
+
+.mainColor {
+    color: var(--mainColor);
+}
+
+.secondaryColor {
+    color: #9E8AE9;
+}
+
+.lightColor {
+    color: #EBAB4A;
+}
+
+/* mobile toggole */
+
+.mobile_toggle {
+    display: block;
+}
+
+.mobile_toggle ul svg {
+    display: block;
+}

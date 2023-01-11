@@ -1,0 +1,276 @@
+@media(min-width: 540px) {
+
+    .hero_abourCard_item {
+        width: 180px;
+        padding: 22px 6px;
+    }
+
+    .hero_abourCard_text span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about_card_item {
+        width: calc(50% - 12px);
+        padding: 54px 30px;
+    }
+
+    .about_titleBtn {
+        font-size: 18px;
+    }
+
+    .about_heading_text {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .our_deapartment_item {
+        width: calc(50% - 12px);
+    }
+
+    .our_service_content {
+        padding: 60px 45px;
+    }
+
+    .our_service_item {
+        padding: 57px 37px;
+    }
+
+
+}
+
+@media(min-width: 768px) {
+    .header_section {
+        padding: 20px 0px;
+    }
+
+    .hero_wrapper {
+        flex-direction: row;
+    }
+
+    .hero_content {
+        width: 55%;
+    }
+
+    .hero_thumbnail {
+        width: 48%;
+        margin-right: -3%;
+    }
+
+    .hero_section {
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+
+    .hero_title_text {
+        font-size: 18px;
+    }
+
+    .hero_heading_text {
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .hero_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero_title {
+        margin-bottom: 10px;
+    }
+
+    .hero_heading {
+        margin-bottom: 30px;
+    }
+
+    .hero_abourCard_item {
+        width: 190px;
+        padding: 24px 6px;
+    }
+
+    .hero_abourCard_text span {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .hero_text_inner {
+        margin-bottom: 50px;
+    }
+
+    .section_padding {
+        padding: 40px 0px;
+    }
+
+    .about_card {
+        margin-top: 40px;
+    }
+
+    .about_wrapper {
+        flex-direction: row;
+    }
+
+    .about_thumbnail {
+        width: 52%;
+    }
+
+    .about_content {
+        width: 41%;
+    }
+
+    .about_heading_text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .about_btn_icon {
+        width: 30px;
+    }
+
+    .about_btn_text {
+        font-size: 20px;
+    }
+
+    .our_service_heading_text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .mobile_toggle {
+        display: none;
+    }
+
+    .header_nav,
+    .header_btn {
+        display: block;
+    }
+
+    .header_section {
+        padding: 30px 0px;
+    }
+
+    .hero_section {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .hero_heading_text {
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    .hero_abourCard_wrapper {
+        gap: 24px;
+    }
+
+    .section_padding {
+        padding: 50px 0px;
+    }
+
+    .about_card {
+        margin-top: 50px;
+    }
+
+    .about_card_item {
+        padding: 50px 30px;
+        width: calc(25% - 18px);
+    }
+
+    .about_heading_text {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .our_deapartment_item {
+        width: calc(25% - 18px);
+    }
+
+}
+
+@media(min-width: 1240px) {
+
+    .header_logo {
+        margin-right: 30px;
+    }
+
+    .header_nav {
+        margin: 0px 30px;
+    }
+
+    .header_btn {
+        margin-left: 30px;
+    }
+
+    .header_logoImage {
+        max-width: 200px;
+    }
+
+    .header_btn_inner {
+        padding: 16px 22px;
+    }
+
+    .header_section {
+        padding: 53px 0px;
+    }
+
+    .hero_heading_text {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .hero_abourCard_item {
+        width: 216px;
+        padding: 24px 10px;
+    }
+
+    .hero_abourCard_text span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hero_wrapper {
+        align-items: center;
+    }
+
+    .section_padding {
+        padding: 60px 0px;
+    }
+
+    .about_card {
+        margin-top: 60px;
+    }
+
+    .about_card_item {
+        padding: 54px 57px;
+    }
+
+    .about_heading_text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .about_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about_section_btn a {
+        padding: 12px 30px;
+    }
+
+    .about_content_textInner {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .about_btn_icon {
+        width: 40px;
+    }
+
+    .about_btn_text {
+        font-size: 24px;
+    }
+}
