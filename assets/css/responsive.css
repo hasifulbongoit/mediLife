@@ -1,3 +1,9 @@
+@media(min-width: 374px) {
+    .hero_abourCard_item {
+        width: 165px;
+    }
+}
+
 @media(min-width: 540px) {
 
     .hero_abourCard_item {

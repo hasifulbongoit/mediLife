@@ -144,7 +144,7 @@
 .hero_abourCard_item {
     display: grid;
     place-content: center;
-    width: 165px;
+    width: 139px;
     padding: 15px 6px;
     border-radius: 5px;
 }
@@ -154,7 +154,10 @@
     line-height: 20px;
     color: var(--globalColor);
     font-weight: 500;
-    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
 }
 
 .hero_thumbnail {
@@ -482,8 +485,7 @@
 
 .our_service_content .slick-prev,
 .our_service_content .slick-next {
-    color: red;
-    border: 1px solid #FB80B9;
+    border: 1px solid #4bc989;
     z-index: 9;
     display: grid;
     place-content: center;
@@ -494,16 +496,31 @@
 .our_service_content .slick-prev:focus,
 .our_service_content .slick-next:hover,
 .our_service_content .slick-next:focus {
-    color: #FFFF;
-    background: #EBAB4A;
+    background: #4bc989;
     border-radius: 50%;
-    border: 1px solid #EBAB4A;
+    /* border: 1px solid var(--globalColor); */
 }
 
-.our_service_content .slick-prev,
-.our_service_content .slick-next {
-    z-index: 9;
+
+.our_service_content .slick-prev:before,
+.our_service_content .slick-next:before {
+    content: '\f053';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 700;
+    color: #4bc989;
 }
+
+.our_service_content .slick-prev:hover::before,
+.our_service_content .slick-prev:focus::before,
+.our_service_content .slick-next:hover::before,
+.our_service_content .slick-next:focus::before {
+    color: var(--globalColor);
+}
+
+.our_service_content .slick-next:before {
+    content: '\f054';
+}
+
 
 
 .our_service_item {
@@ -539,3 +556,5 @@
     line-height: 24px;
     font-weight: 400;
 }
+
+/* our doctors */
