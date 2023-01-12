@@ -185,7 +185,7 @@
 .about_card_wrapper {
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
 }
@@ -197,6 +197,30 @@
     background: var(--globalColor);
     box-shadow: 0px 9px 32px rgba(52, 50, 51, 0.1);
     display: block;
+}
+
+.about_card_item:hover .about_carditem_titleText {
+    color: var(--globalColor);
+}
+
+.about_card_item:hover .about_carditem_text {
+    color: var(--globalColor);
+}
+
+.about_card_item:nth-child(1):hover {
+    background: var(--mainColor);
+}
+
+.about_card_item:nth-child(2):hover {
+    background: var(--primaryColor);
+}
+
+.about_card_item:nth-child(3):hover {
+    background: #9E8AE9;
+}
+
+.about_card_item:nth-child(4):hover {
+    background: #FF7070;
 }
 
 .about_carditem_icon {
@@ -353,6 +377,7 @@
     box-shadow: 0px 9px 32px rgba(0, 0, 0, 0.16);
     position: relative;
     transition: var(--transition);
+    cursor: context-menu;
 }
 
 .our_deapartment_item:hover {
@@ -484,7 +509,7 @@
 
 .our_service_content .slick-prev,
 .our_service_content .slick-next {
-    border: 1px solid #4bc989;
+    background: #71d5a3;
     z-index: 9;
     display: grid;
     place-content: center;
@@ -506,7 +531,7 @@
     content: '\f053';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 700;
-    color: #4bc989;
+    color: var(--globalColor);
 }
 
 .our_service_content .slick-prev:hover::before,
@@ -566,7 +591,7 @@
 .our_doctors_wrapper {
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -902,6 +927,19 @@
     background-color: var(--mainColor);
     gap: 25px 25px;
     border-radius: 5px;
+    cursor: context-menu;
+}
+
+.home_contact_item:hover {
+    background-color: #FF7070;
+}
+
+.home_contact_item:nth-child(2):hover {
+    background-color: #9E8AE9 !important;
+}
+
+.home_contact_item:nth-child(2) {
+    background-color: var(--primaryColor);
 }
 
 .home_contact_item_image {
