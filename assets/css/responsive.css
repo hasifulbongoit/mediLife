@@ -1,6 +1,10 @@
-@media(min-width: 374px) {
+@media(min-width: 375px) {
     .hero_abourCard_item {
         width: 165px;
+    }
+
+    .appoint_submitBtn button {
+        padding: 17px 58px;
     }
 }
 
@@ -42,7 +46,126 @@
         padding: 57px 37px;
     }
 
+    .section_title_mainText {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
 
+    .section_title_heading {
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+
+    .our_doctors_category {
+        font-size: 12px;
+    }
+
+    .our_doctors_name {
+        font-size: 14px;
+    }
+
+    .our_doctors_item {
+        width: calc(50% - 12px);
+    }
+
+    .our_lab_contentList ul {
+        gap: 20px;
+    }
+
+    .our_lab_contentList ul li {
+        gap: 10px;
+    }
+
+    .our_lab_contentList_number {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+    }
+
+    .our_lab_contentList_text {
+        font-size: 16px;
+        line-height: 24px;
+        width: calc(100% - 50px);
+    }
+
+    .appoint_wrapper {
+        padding: 40px 20px;
+    }
+
+    .appoint_title_top {
+        padding: 0px 24px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .appoint_title_heading h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .appoint_title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .appoint_form_inner {
+        height: 60px;
+    }
+
+    .appoint_form_textarea {
+        height: 120px !important;
+    }
+
+    .home_contact_item_image {
+        width: 80px;
+    }
+
+    .home_contact_item {
+        flex-direction: row;
+    }
+
+    .home_contact_item_text {
+        text-align: left;
+    }
+
+    .footer_top_wrapper {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer_logo {
+        width: 187px;
+    }
+
+    .footer_btn button {
+        position: absolute;
+        transform: translateY(-50%);
+        background: var(--mainColor);
+        margin-top: 0px;
+    }
+
+    .newsletter_form_wrapper {
+        background-color: var(--globalColor);
+    }
+
+    .footer_wrapper {
+        gap: 40px;
+    }
+
+    .footer_item {
+        width: calc(50% - 20px);
+    }
+
+    .newsletter_footer {
+        width: 100%;
+    }
+
+    .newsletter_form {
+        padding: 36px;
+    }
 }
 
 @media(min-width: 768px) {
@@ -142,6 +265,93 @@
         line-height: 50px;
     }
 
+    .section_title_heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section_title {
+        align-items: flex-end;
+        flex-direction: row;
+    }
+
+    .our_doctors_item {
+        padding: 44px 22px;
+    }
+
+    .our_doctors_name {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .our_doctors_category {
+        font-size: 16px;
+    }
+
+    .our_doctors_content {
+        margin-top: 50px;
+    }
+
+    .our_doctorsItem_body {
+        margin-bottom: 30px;
+    }
+
+    .our_doctorsItem_footer {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .testimonial_wrapper {
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .our_lab_wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .our_lab_content {
+        width: 41%;
+    }
+
+    .our_lab_thumbnail {
+        width: 52%;
+    }
+
+    .our_lab_contentList {
+        margin-top: 40px;
+    }
+
+    .our_deapartment_item {
+        padding: 40px 40px 36px;
+    }
+
+    .home_contact_wrapper {
+        flex-direction: row;
+    }
+
+    .footer_logo {
+        width: 207px;
+    }
+
+    .footer_item_title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer_wrapper {
+        gap: 20px;
+    }
+
+    .footer_item {
+        width: calc(33.33% - 14px);
+    }
+
+    .newsletter_footer {
+        width: 100%;
+    }
+
 }
 
 @media(min-width: 1024px) {
@@ -191,9 +401,67 @@
     }
 
     .our_deapartment_item {
-        width: calc(25% - 18px);
+        width: calc(33.33% - 16px);
     }
 
+    .our_doctors_item {
+        width: calc(33.33% - 18px);
+    }
+
+    .our_doctors_name {
+        font-size: 18px;
+    }
+
+    .our_doctors_category {
+        font-size: 14px;
+    }
+
+    .our_lab_wrapper {
+        align-items: center;
+    }
+
+    .appoint_form_textarea {
+        height: 160px !important;
+    }
+
+    .appoint_content::after,
+    .appoint_content::before {
+        content: "";
+        position: absolute;
+        background-image: url(../image/fromElips.png);
+        width: 107px;
+        height: 217px;
+    }
+
+    .appoint_content::after {
+        top: 0px;
+        left: 0px;
+    }
+
+    .appoint_content::before {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .home_contact_item {
+        gap: 0px 50px;
+    }
+
+    .home_contact_wrapper {
+        padding: 60px 20px;
+    }
+
+    .footer_wrapper {
+        gap: 30px;
+    }
+
+    .footer_item {
+        width: calc(33.33% - 20px);
+    }
+
+    .newsletter_footer {
+        width: 75%;
+    }
 }
 
 @media(min-width: 1240px) {
@@ -278,5 +546,58 @@
 
     .about_btn_text {
         font-size: 24px;
+    }
+
+    .our_doctors_name {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .our_doctors_category {
+        font-size: 18px;
+    }
+
+    .card_btn a {
+        padding: 12px 45px;
+    }
+
+    .our_lab_contentList ul li {
+        gap: 20px;
+    }
+
+    .our_lab_contentList_number {
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+    }
+
+    .our_lab_contentList_text {
+        font-size: 18px;
+        width: calc(100% - 80px);
+    }
+
+    .our_lab_contentList {
+        margin-top: 60px;
+    }
+
+    .our_deapartment_item {
+        width: calc(25% - 18px);
+    }
+
+    .testimonial_wrapper {
+        gap: 10%;
+    }
+
+    .footer_wrapper {
+        gap: 10px;
+    }
+
+    .footer_item {
+        width: calc(20% - 10px);
+    }
+
+    .newsletter_footer {
+        width: calc(40% - 20px);
+        margin-left: 20px;
     }
 }

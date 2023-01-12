@@ -63,6 +63,10 @@ p {
     background: #9E8AE9;
 }
 
+.pinkBg {
+    background: #FB80B9;
+}
+
 .light {
     background: #EBAB4A;
 }
@@ -91,4 +95,40 @@ p {
 
 .mobile_toggle ul svg {
     display: block;
+}
+
+/* section title */
+
+.section_title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.section_title_mainText {
+    font-size: 14px;
+    color: var(--mainColor);
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.section_title_heading {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.section_Btn a {
+    display: inline-block;
+    background-color: var(--mainColor);
+    padding: 16px 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--globalColor);
+    font-weight: 600;
 }
