@@ -166,6 +166,49 @@
     .newsletter_form {
         padding: 36px;
     }
+
+    .aboutpage_card_item {
+        flex-direction: row;
+    }
+
+    .alldoctors_item {
+        width: calc(50% - 12px);
+    }
+
+    .doctorBanner_content {
+        padding: 100px 20px;
+    }
+
+    .doctorBanner_wrapper {
+        padding: 61px 51px;
+    }
+
+    .doctorBanner_heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .ourdepartment_item {
+        flex-direction: row;
+    }
+
+    .ourdepartment_content {
+        text-align: left;
+    }
+
+    .aboutSection_titleBtn a {
+        padding: 12px 45px;
+        font-size: 18px;
+    }
+
+    .contact_form {
+        padding: 81px 62px;
+    }
+
+    .contact_wrapper {
+        padding: 60px 20px;
+    }
+
 }
 
 @media(min-width: 768px) {
@@ -352,6 +395,48 @@
         width: 100%;
     }
 
+    .aboutBanner_content {
+        width: 60%;
+    }
+
+    .aboutBanner_thumbnail {
+        width: 40%;
+    }
+
+    .about_banner_subTitle_text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .aboutpage_card_item {
+        height: 300px;
+    }
+
+    .alldoctors_item {
+        width: calc(33.33% - 16px);
+    }
+
+    .doctorBanner_content {
+        padding: 152px 20px;
+    }
+
+    .ourdepartment_item {
+        width: calc(50% - 12px);
+    }
+
+    .news_item {
+        width: calc(50% - 12px);
+    }
+
+    .news_section_title h1 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .contact_input_inner {
+        width: calc(50% - 12px);
+    }
+
 }
 
 @media(min-width: 1024px) {
@@ -462,6 +547,23 @@
     .newsletter_footer {
         width: 75%;
     }
+
+    .alldoctors_item {
+        width: calc(25% - 18px);
+    }
+
+    .doctorBanner_content {
+        padding: 182px 20px;
+    }
+
+    .finddoctors_form_wrapper {
+        flex-direction: row;
+    }
+
+    .news_item {
+        width: calc(33.33% - 16px);
+    }
+
 }
 
 @media(min-width: 1240px) {
@@ -599,5 +701,51 @@
     .newsletter_footer {
         width: calc(40% - 20px);
         margin-left: 20px;
+    }
+
+    .aboutPcard_wrapper {
+        flex-direction: row;
+    }
+
+    .aboutPcard_title_text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .aboutcard_details_title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .doctorBanner_content {
+        padding: 212px 20px;
+    }
+
+
+
+
+    .ourdepartment_item {
+        height: 282px;
+        flex-direction: row;
+    }
+
+    .ourdeapartment_title {
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .ourdeapartment_heading {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .ourdepartment_image {
+        width: 150px;
+    }
+
+    .ourdepartment_image img {
+        width: 100%;
+        display: block;
     }
 }

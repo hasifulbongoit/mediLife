@@ -70,6 +70,7 @@
     border-radius: 5px;
     background-color: var(--mainColor);
     text-transform: capitalize;
+    display: inline-block;
 }
 
 .hero_section {
@@ -858,6 +859,10 @@
     color: var(--normalText);
 }
 
+.appoint_input:focus {
+    border-color: var(--mainColor);
+}
+
 .appoint_select {
     appearance: none;
     background: url(../image/select.png);
@@ -1116,4 +1121,644 @@
     font-weight: 600;
     cursor: pointer;
     margin-top: 10px;
+}
+
+/* about page */
+
+.about_banner {
+    background: transparent;
+}
+
+.about_btn_icon_svg {
+    display: flex;
+}
+
+.about_bannerBtn {
+    font-weight: 600;
+}
+
+.about_banner_subTitle_text {
+    color: var(--mainColor);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.aboutBanner_content {
+    width: 100%;
+}
+
+.aboutBanner_thumbnail {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.aboutpage_card {
+    background: var(--sectionBg);
+}
+
+.aboutPcard_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-direction: column;
+}
+
+
+.aboutpage_card_item {
+    height: 380px;
+    width: 100%;
+    background: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 40px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 30px;
+    cursor: context-menu;
+}
+
+.aboutpage_card_item:nth-child(2) {
+    background: var(--mainColor);
+}
+
+.aboutpage_card_item:nth-child(1):hover {
+    background: #FF7070;
+}
+
+.aboutpage_card_item:nth-child(2):hover {
+    background: #9E8AE9;
+}
+
+.aboutPcard_content {
+    color: var(--globalColor);
+}
+
+
+.aboutPcard_title {
+    margin-bottom: 10px;
+}
+
+
+.aboutPcard_title_text,
+.aboutsection_title_mainText {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--globalColor);
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+
+.aboutPcard_title_text::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: calc(100% + 20%);
+    background-color: var(--globalColor);
+    bottom: 0px;
+    left: 0px;
+}
+
+.aboutcard_details_title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--globalColor);
+    margin-bottom: 17px;
+}
+
+.aboutcard_details_list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutcard_details_list li {
+    list-style: disc;
+    font-size: 14px;
+}
+
+
+.aboutPcard_image {
+    max-width: 140px;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutPcard_image img {
+    max-width: 100%;
+}
+
+.all_doctors {
+    position: relative;
+}
+
+.alldoctors_wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.alldoctors_item {
+    border-radius: 5px;
+    background: var(--globalColor);
+    border: 1px solid rgba(52, 50, 51, 0.1);
+    box-shadow: 0px 9px 32px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.alldoctors_item_thumb {
+    position: relative;
+}
+
+.alldoctors_item_thumb img {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+
+.alldoctors_itemContent {
+    text-align: center;
+    padding: 10px 10px 20px;
+}
+
+.alldoctors_name {
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--textColor);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.alldoctors_designation {
+    color: var(--mainColor);
+    font-weight: 600;
+}
+
+
+.aboutSection_titleBtn a {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--mainColor);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.aboutsection_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.aboutsection_title_mainText {
+    color: var(--mainColor);
+}
+
+.aboutsection_title_mainText::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: calc(100% + 20%);
+    background-color: var(--mainColor);
+    bottom: 0px;
+    left: 0px;
+}
+
+.aboutSection_titleBtn a:hover {
+    color: var(--globalColor);
+    background-color: var(--mainColor);
+}
+
+/* doctor page */
+
+.doctor_banner {
+    background: url(../image/doctors/doctorsBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.doctorBanner_content {
+    padding: 72px 20px;
+}
+
+.doctorBanner_wrapper {
+    max-width: 784px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 41px 21px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    --webkit-backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.doctoeBanner_title a {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--globalColor);
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.doctoeBanner_title a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: calc(100% + 20px);
+    background-color: var(--globalColor);
+    bottom: 0px;
+    left: -100%;
+    transition: var(--transition);
+}
+
+.doctoeBanner_title a:hover::after {
+    left: 0px;
+}
+
+.doctorBanner_btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.doctorBanner_heading {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.doctorBanner_heading span {
+    color: var(--globalColor);
+}
+
+.doctors_itemContent {
+    text-align: left;
+    padding: 21px;
+}
+
+.alldoctors_item_text {
+    margin-top: 10px;
+}
+
+.find_doctors {
+    position: relative;
+}
+
+.find_doctors_content {
+    padding: 94px 20px;
+    background: #fff;
+    box-shadow: 0px 9px 32px rgba(0, 0, 0, 0.1);
+
+}
+
+.find_doctors_form {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.finddoctors_form_wrapper {
+    display: flex;
+    gap: 20px 50px;
+    flex-direction: column;
+}
+
+.finddoctors_form_input {
+    border: 1px solid var(--mainColor);
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.finddoctors_form_inputBtn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 60px;
+    background-color: var(--mainColor);
+    display: grid;
+    place-content: center;
+}
+
+.finddoctors_form_inputBtn img {
+    height: 34px;
+    width: 34px;
+    display: block;
+}
+
+.finddoctors_formSelect {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 25px;
+    color: var(--textColor);
+    display: block;
+    appearance: none;
+    background: url(../image/chevron.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 25px) center;
+    margin-left: 60px;
+    width: calc(100% - 60px);
+    overflow: hidden;
+}
+
+.finddoctors_form_submitBtn button {
+    height: 60px;
+    border-radius: 5px;
+    width: 248px;
+    background: rgb(15 155 255 / 60%);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: var(--globalColor);
+    cursor: pointer;
+}
+
+/* our department  */
+
+.ourdepartment_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    flex-flow: wrap;
+}
+
+.ourdepartment_item {
+    background: var(--primaryColor);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 282px;
+    flex-direction: column-reverse;
+    padding: 15px;
+    width: 100%;
+}
+
+.ourdepartment_item:hover {
+    background-color: #9E8AE9;
+}
+
+.ourdepartment_content {
+    text-align: center;
+}
+
+.ourdeapartment_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--globalColor);
+
+}
+
+.ourdeapartment_heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--globalColor);
+    margin: 10px 0;
+}
+
+.ourdepartment_image {
+    width: 90px;
+}
+
+.ourdepartment_image img {
+    width: 100%;
+    display: block;
+}
+
+/* our department end */
+
+.newsBanner_section {
+    background: url(../image/about/newsBnnar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newsBanner_section_wrapper {
+    box-shadow: 0px 9px 32px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(31px);
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+.news_section {
+    position: relative;
+}
+
+.news_section_title {
+    text-align: center;
+}
+
+.news_section_title h1 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    color: var(--mainColor);
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.news_wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.news_item {
+    width: 100%;
+    background: var(--globalColor);
+    filter: drop-shadow(0px 9px 32px rgba(0, 0, 0, 0.1));
+}
+
+.news_item_thumbnail {
+    position: relative;
+}
+
+.news_item_thumbnail img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.news_item_content {
+    padding: 20px 26px;
+    overflow: hidden;
+    clear: both;
+}
+
+.news_item_title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--mainColor);
+}
+
+.news_item_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.news_itemBtn {
+    float: right;
+}
+
+.news_itemLink {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.news_itemLink span {
+    display: flex;
+}
+
+.contact_us {
+    position: relative;
+}
+
+.contact_wrapper {
+    background: #fafdff;
+    filter: drop-shadow(0px 9px 32px rgba(0, 0, 0, 0.16));
+}
+
+.contact_form {
+    max-width: 1096px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 30px;
+    background: rgb(15 155 255 / 10%);
+}
+
+.contact_form_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contact_input_inner {
+    height: 60px;
+    width: 100%;
+}
+
+.contact_textarea_inner {
+    width: 100%;
+}
+
+.contact_textarea_inner textarea {
+    height: 200px;
+}
+
+.contactInput_control {
+    background: #eef8ff;
+    border: 1px solid rgba(52, 50, 51, 0.4);
+    padding: 19px 15px;
+    color: var(--textColor);
+    font-size: 16px;
+}
+
+.contactInput_control::placeholder {
+    font-size: 16px;
+    color: rgba(52, 50, 51, 0.4);
+}
+
+.contact_submitBtn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* login page */
+
+.login_page {
+    background: #95CDF5;
+}
+
+.login_content {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_wrapper {
+    max-width: 561px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.login_logo {
+    max-width: 200px;
+    width: 100%;
+    margin: 0px auto 45px;
+}
+
+.login_logo img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.login_input_inner {
+    height: 56px;
+    width: 100%;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.loginInput_control {
+    border-radius: 5px;
+    background: var(--globalColor);
+    padding: 16px;
+    font-size: 16px;
+}
+
+.login_submitBtn {
+    text-align: center;
+}
+
+.login_submitBtn button {
+    height: 56px;
+    width: 274px;
+    display: grid;
+    place-content: center;
+    border: none;
+    font-size: 16px;
+    color: var(--globalColor);
+    background: var(--mainColor);
+    border-radius: 5px;
 }

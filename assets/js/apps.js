@@ -1,4 +1,12 @@
-// slick slider
+// nav togler
+
+{
+  let navToglle = document.getElementById("mobile_toggle");
+  let MobileNav = document.getElementById("mobile_nav");
+  navToglle.addEventListener("click", function () {
+    MobileNav.classList.toggle("showNav");
+  });
+}
 
 // slick slider
 
